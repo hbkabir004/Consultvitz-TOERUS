@@ -1,0 +1,169 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.header-bg {
+  background-color: #273d71;
+}
+.text-hover:hover {
+  color: #3fd3af;
+}
+
+.heading-text {
+  color: #273d71;
+}
+
+.paragraph-text {
+  color: #677788;
+}
+
+.banner-bg {
+  background-image: url("../assets/bg/header-bg.png");
+}
+
+.banner-img-padding {
+  padding-top: 51px;
+}
+.banner-content-padding {
+  padding-top: 111px;
+}
+
+.service-bg {
+  background-image: url("../assets/bg/providing-bg.png");
+}
+
+.service-section-gap {
+  margin-top: 109px;
+  margin-bottom: 129px;
+}
+.service-card-gap {
+  margin-bottom: 52px;
+  /* margin-left: 26px; */
+}
+
+.service-element-gap {
+  margin-bottom: 22px;
+}
+.service-paragraph-gap {
+  margin-bottom: 42px;
+  /* width: 471px;
+  height: 89px; */
+}
+.form-heading-gap {
+  padding-top: 72px;
+  margin-bottom: 101px;
+}
+
+.form-text-gap {
+  padding-top: 70px;
+}
+
+/* .section-container {
+  margin-left: 535px;
+  margin-right: 535px;
+} */
+
+.form-gap {
+  padding: 0 50px;
+}
+/* .form-input-gap {
+  width: 375.69px;
+  height: 58px;
+  margin-bottom: 15px;
+} */
+
+.consult-bg {
+  background-image: url("../assets/bg/upper bg.png");
+}
+
+.form-bg {
+  background-image: url("../assets/bg/form-bg.png");
+  /* width: 470px;
+  height: 617px; */
+}
+
+/* .form-size {
+  width: 470px;
+  height: 617px;
+} */
+
+/* ------------------------------------------------------- */
+.bg-purple {
+  background-image: url("../assets/bg/bg-purple.png");
+}
+
+.purple-text {
+  color: #6472f2;
+}
+
+.elipse-bg {
+  background-image: url("../assets/icons/Ellipse.png");
+}
+
+.business-bg {
+  background-color: #f5f9ff;
+}
+
+.choose-bg {
+  background-image: url("../assets/bg/contact-bg.png");
+}
+
+.testimonial-bg {
+  background-image: url("../assets/bg/bg-testimonial.png");
+}
+.pre-testimonial-bg {
+  background-image: url("../assets/bg.png");
+}
+
+/* .slider-bg {
+  background-image: url("../assets/bg/Slider.png");
+  background-repeat: no-repeat;
+  width: 1431px;
+} */
+
+.footer-bg {
+  background-color: #273d71;
+}
+.footer-bg-icon {
+  background-image: url("../assets/icons/send.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 42px;
+  height: 42px;
+  /* padding-right: 60px; */
+}
+
+.footer-bg-purple {
+  background-image: url("../assets/bg/footer-purple-bg.png");
+}
+
+/* Form Style */
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 12px;
+}
+
+.form-control {
+  border: 2px solid #f5f9ff;
+  border-radius: 10px;
+  /* width: 375.69px;
+  height: 58px; */
+  margin-bottom: 15px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #039be5;
+}
+
+.get-appointment-btn {
+  font-size: 17px;
+  margin-bottom: 26px;
+  /* width: 370px;
+  height: 56px; */
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
