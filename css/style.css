@@ -9,6 +9,15 @@ body {
   color: #3fd3af;
 }
 
+.social-icon-size {
+  font-size: 14px;
+}
+.social-icon-gap {
+  margin-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .heading-text {
   color: #273d71;
 }
