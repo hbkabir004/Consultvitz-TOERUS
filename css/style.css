@@ -62,8 +62,6 @@ body {
 }
 .service-paragraph-gap {
   margin-bottom: 42px;
-  /* width: 471px;
-  height: 89px; */
 }
 .form-heading-gap {
   padding-top: 72px;
@@ -90,8 +88,8 @@ body {
 
 .appointment-icon {
   position: absolute;
-  top: 19px;
-  left: 322px;
+  top: 20%;
+  left: 90%;
   right: 26px;
   color: #c1d1e1;
   font-size: 22px;
@@ -203,7 +201,7 @@ body {
 @media only screen and (max-width: 688px) {
   .appointment-icon {
     position: absolute;
-    top: 10px;
-    left: 235px;
+    top: 20%;
+    left: 90%;
   }
 }
