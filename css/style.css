@@ -1,3 +1,18 @@
+/*=============
+   Google Font
+  ============= */
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/*======================
+  Bootstrap Style Sheet
+  ======================*/
+@import url("./bootstrap.min.css");
+
+/*===================
+   Custom CSS Styles 
+  ===================*/
 body {
   font-family: "Quicksand", sans-serif;
 }
@@ -63,6 +78,16 @@ body {
 .service-paragraph-gap {
   margin-bottom: 42px;
 }
+.service-shadow {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.placeholder-font {
+  font-family: Nunito Sans;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
 .form-heading-gap {
   padding-top: 72px;
   margin-bottom: 101px;
@@ -111,7 +136,6 @@ body {
   height: 617px;
 } */
 
-/* ------------------------------------------------------- */
 .bg-purple {
   background-image: url("../assets/bg/bg-purple.png");
 }
@@ -187,12 +211,6 @@ body {
   height: 56px; */
 }
 
-@media (min-width: 992px) {
-  .rounded-lg-3 {
-    border-radius: 0.3rem;
-  }
-}
-
 /* ==================
     Media-Query styles
  =======================*/
@@ -203,5 +221,11 @@ body {
     position: absolute;
     top: 20%;
     left: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
   }
 }
