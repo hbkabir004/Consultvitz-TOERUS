@@ -79,7 +79,7 @@ body {
   margin-bottom: 42px;
 }
 .service-shadow {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0px 10px 30px rgba(137, 151, 186, 0.2);
 }
 
 .placeholder-font {
@@ -97,19 +97,9 @@ body {
   padding-top: 70px;
 }
 
-/* .section-container {
-  margin-left: 535px;
-  margin-right: 535px;
-} */
-
 .form-gap {
   padding: 0 50px;
 }
-/* .form-input-gap {
-  width: 375.69px;
-  height: 58px;
-  margin-bottom: 15px;
-} */
 
 .appointment-icon {
   position: absolute;
@@ -126,15 +116,7 @@ body {
 
 .form-bg {
   background-image: url("../assets/bg/form-bg.png");
-  /* width: 470px;
-  height: 617px; */
-  /* max-height: 617px; */
 }
-
-/* .form-size {
-  width: 470px;
-  height: 617px;
-} */
 
 .bg-purple {
   background-image: url("../assets/bg/bg-purple.png");
@@ -163,11 +145,158 @@ body {
   background-image: url("../assets/bg.png");
 }
 
-/* .slider-bg {
-  background-image: url("../assets/bg/Slider.png");
-  background-repeat: no-repeat;
-  width: 1431px;
-} */
+.news-section {
+  position: relative;
+  padding: 100px 0px 100px;
+}
+
+.news-block {
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 15px 5px rgba(137, 151, 186, 0.15);
+}
+.image {
+  margin: 0;
+  width: 100%;
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.sec-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.separator {
+  position: relative;
+  width: 70px;
+  height: 4px;
+  border-radius: 33.7963px;
+  margin-top: 15px;
+  background-color: #3fd3af;
+}
+
+.separator:before {
+  position: absolute;
+  content: "";
+  right: -12px;
+  width: 8px;
+  height: 4px;
+  border-radius: 33.7963px;
+  background-color: #3fd3af;
+}
+
+.separator:after {
+  position: absolute;
+  content: "";
+  right: -19px;
+  width: 4px;
+  height: 4px;
+  border-radius: 33.7963px;
+  background-color: #3fd3af;
+}
+
+.centered {
+  text-align: center;
+}
+
+.post-date {
+  color: white;
+  background-color: #3fd3af;
+  position: absolute;
+  left: 248px;
+  top: 232px;
+  padding: 1px 6px;
+  border-top-left-radius: 5px;
+  border-end-start-radius: 5px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.lower-content {
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+.author-box {
+  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-left: 35px;
+}
+.lower-box {
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  line-height: 0;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #273d71;
+}
+
+.author-image {
+  margin-right: 13px;
+  border: 2px solid #3fd3af;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  overflow: hidden;
+}
+
+.author-info {
+  margin-top: 10px;
+}
+
+.author-name {
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 26px; */
+}
+
+.designation {
+  font-size: 12px;
+  color: #677788;
+  font-weight: 400;
+  /* line-height: 22px; */
+}
+
+.line {
+  color: rgba(185, 185, 185, 0.5);
+  /* box-shadow: 0px 4px 10px rgba(185, 185, 185, 0.25); */
+}
+.news-paragraph {
+  font-size: 16px;
+  color: #677788;
+  font-weight: 400;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #3fd3af;
+  line-height: 0;
+}
+
+.read-more-div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
 
 .footer-bg {
   background-color: #273d71;
@@ -178,7 +307,6 @@ body {
   background-position: right center;
   width: 42px;
   height: 42px;
-  /* padding-right: 60px; */
 }
 
 .footer-bg-purple {
@@ -195,9 +323,8 @@ body {
 .form-control {
   border: 2px solid #f5f9ff;
   border-radius: 10px;
-  width: 375.69px;
-  height: 58px;
   margin-bottom: 15px;
+  padding: 15px;
 }
 .form-control:focus {
   box-shadow: none;
@@ -207,8 +334,6 @@ body {
 .get-appointment-btn {
   font-size: 17px;
   margin-bottom: 26px;
-  /* width: 370px;
-  height: 56px; */
 }
 
 /* ==================
@@ -221,6 +346,30 @@ body {
     position: absolute;
     top: 20%;
     left: 90%;
+  }
+
+  .form-control {
+    border: 2px solid #f5f9ff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .lower-content {
+    margin-top: 16px;
+    margin-left: 15px;
+  }
+
+  .post-date {
+    color: white;
+    background-color: #3fd3af;
+    position: absolute;
+    left: 202px;
+    top: 202px;
+    padding: 2px 12px;
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+    font-size: 14px;
+    line-height: 26px;
   }
 }
 
