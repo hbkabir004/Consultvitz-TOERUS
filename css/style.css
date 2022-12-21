@@ -237,6 +237,10 @@ body {
   margin-top: 20px;
   margin-left: 35px;
 }
+.title {
+  text-decoration: none;
+}
+
 .content {
   display: flex;
   justify-content: left;
